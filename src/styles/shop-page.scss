@@ -1,0 +1,150 @@
+.shop-page {
+  &__content {
+    padding: 100px;
+    display: flex;
+
+  }
+
+  &__content-half {
+    width: 50%;
+  }
+
+  &__content-half:first-child {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 0;
+    text-align: left;
+  }
+
+  &__extra-content {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  &__extra-content-half {
+    width: 50%;
+  }
+
+  &__title {
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #000000;
+    margin-bottom: 25px;
+  }
+
+  &__info-btn {
+    background-color: transparent;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    cursor: pointer;
+
+
+    color: #000000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  }
+
+  &__info-btn:first-child {
+    margin-right: 53px;
+  }
+
+  &__desc {
+    margin: 15px 0;
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+
+  &__desc-extra {
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+
+    color: #000000;
+  }
+
+  &__extra-content-half:last-child{
+    text-align: left;
+    padding: 100px 100px 0 0 ;
+  }
+
+  &__extra-title{
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #000000;
+    margin-bottom: 60px;
+  }
+
+  &__extra-subtitle{
+
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+
+
+
+}
+
+select {
+  width: 400px;
+  height: 60px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  outline: none;
+}
+
+label{
+  margin: 20px 0;
+}
+
+span {
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #333333;
+}

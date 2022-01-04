@@ -1,0 +1,58 @@
+.shops {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px;
+
+  &__shop {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    width: 30%;
+    padding: 26px 46px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__address {
+    margin: 20px 0;
+  }
+
+
+  &__city {
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  &__address {
+    text-align: left;
+
+  }
+
+  &__tel {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  &__btn {
+    background: #E8E8E8;
+    border-radius: 5px;
+    border: none;
+
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    bottom: 25px;
+    right: 60px;
+  }
+}

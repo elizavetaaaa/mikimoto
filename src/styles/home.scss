@@ -1,0 +1,203 @@
+.home {
+  &__top {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  &__top > img{
+    width: 33%;
+  }
+
+  &__second-sec {
+    padding: 106px 0 146px;
+
+
+  }
+
+  &__second-sec-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &__second-text-div {
+    width: 60%;
+
+  }
+
+  &__second-text-div-btn {
+    width: 40%;
+
+  }
+
+  &__second-sec-text {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    color: #000000;
+    text-align: left;
+
+  }
+
+
+  &__second-sec-btn {
+    width: 300px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin: 48px 0 0 0;
+    font-family: Secular One, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+    cursor: pointer;
+
+    text-align: center;
+
+    color: #000000;
+    display: inline;
+    transition: 0.2s;
+
+
+  }
+
+  &__second-sec-btn:hover {
+    background-color: #00000020;
+    color: #fff;
+  }
+
+
+    &__third-sec-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__third-sec-card {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__third-sec-card > img{
+    height: 450px;
+  }
+
+  &__third-sec-title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    color: #000000;
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  &__third-sec-card-title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    margin-bottom: 50px;
+    color: #000000;
+  }
+
+
+  &__forth-sec {
+    padding: 160px 0 236px;
+
+  }
+
+  &__forth-sec-text {
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 60px;
+    /* or 167% */
+
+    text-align: center;
+    margin-bottom: 126px;
+
+    color: #000000;
+  }
+
+  &__forth-sec-slides-title {
+
+    font-family: Secular One, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-bottom: 34px;
+    text-align: left;
+  }
+
+  &__forth-sec-slides {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__footer {
+    background-color: #000;
+    color: #fff;
+
+  }
+
+
+
+  &__footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 113px 0;
+  }
+
+  &__footer-content-col > ul > li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  &__footer-content-col > ul > li:first-child {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+
+  }
+
+  &__fifth-sec> img{
+    width: 100%;
+    height: 100%;
+  }
+
+  &__second-third-text{
+    font-size: 24px;
+    text-align: left;
+
+  }
+
+}
+
+.extra-div{
+  margin-top: 60px;
+}

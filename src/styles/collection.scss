@@ -1,0 +1,59 @@
+.collection{
+  margin: 80px 0 100px;
+  &__top{
+    display: flex;
+  }
+
+  &__title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  &__subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: left;
+
+    color: #000000;
+
+  }
+
+  &__content-half:first-child{
+    width: 30%;
+  }
+
+  &__content-half:last-child {
+    width: 70%;
+  }
+
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  &__product{
+    width: 33%;
+  }
+
+
+  &__img{
+    width: 300px;
+    height: 300px;
+  }
+
+  &__like-empty{
+    cursor: pointer ;
+    background-color: transparent;
+    border: none;
+  }
+  }

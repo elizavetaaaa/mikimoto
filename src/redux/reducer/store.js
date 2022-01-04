@@ -6,15 +6,14 @@ const CHANGE_PROGRAM = 'CHANGE_PROGRAM';
 const SHOW_EXTRA_TEXT = 'SHOW_EXTRA_TEXT';
 const SHOW_PROGRAM_INFO = 'SHOW_PROGRAM_INFO';
 const TEMP = 'TEMP';
+const CHANGE_ACTIVE = 'CHANGE_ACTIVE';
 
 const initialState = {
     data: [],
+    wishData: [],
+    activeProduct: false,
+
     showExtra: false,
-    myData: [],
-    hidden: false,
-    showSpan: false,
-    programInfo: false,
-    temp: 'hello'
 
 }
 
@@ -31,9 +30,9 @@ export default (state = initialState, action) => {
                 ...state, data: action.data
             }
         }
-        case TEMP: {
+        case CHANGE_ACTIVE: {
             return {
-                ...state, temp: state.temp + " me"
+                ...state, activeProduct: !state.activeProduct
             }
         }
         case SHOW_EXTRA_TEXT: {
@@ -104,6 +103,6 @@ export const showProgramInfo = (id) => ({
 
 });
 
-export const getTemp = () => ({
-    type: TEMP
+export const changeActive = () => ({
+    type: CHANGE_ACTIVE
 })
